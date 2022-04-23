@@ -30,13 +30,21 @@ username = "Patrick" password = "happy"
  - Uses [Lottie](https://lottiefiles.com/) for animation.
  - Uses [Timber](https://lottiefiles.com/https://github.com/JakeWharton/timber) for logging
  - Uses [Sneaker](https://github.com/Hamadakram/Sneaker) for SnackBar.
-## Screenshots
 
-<img src="" width="400"/>
-<img src="" width="400" />
-<img src="" width="400" />
-<img src="" width="400" />
-<img src="" width="400" />
+## Screenshots
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/launcher.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/login_page.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/home_page.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/detail_page.jpg" width="400"/>
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/detail_page2.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/search.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/favorite_page.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/setting_page.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/load_more_error.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/login_error.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/login_error2.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/no_data_database.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/open_page_error.jpg" width="400" />
 
 ### Clone the Repository
 As usual, you get started by cloning the project to your local machine:
