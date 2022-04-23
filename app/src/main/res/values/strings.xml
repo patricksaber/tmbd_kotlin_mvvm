@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">demo</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in</string>
+    <string name="action_logout">logout</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="neugelb">neugelb</string>
+    <string name="network_error">Network error, please try again!</string>
+    <string name="server_error">Server error, please try again later!</string>
+    <string name="connection_error">connection error, please check your internet!</string>
+    <string name="invalid_error">Wrong username or password, Check ReadMe file</string>
+    <string name="description_poster">poster</string>
+    <string name="search_for_a_movie_name">Search for a movie name</string>
+    <string name="summary">Summary</string>
+    <string name="retry">Retry</string>
+    <string name="cancel">cancel</string>
+    <string name="no_data_found">No data found please go online</string>
+    <string name="data_offline">Get Data from database</string>
+    <string name="remember_me">Remember me</string>
+
+    <!--Bottom navigation-->
+    <string name="title_home">Home</string>
+    <string name="title_settings">Settings</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="favorites">Favorites</string>
+    <string name="favorite_empty">Favorite list is empty</string>
+
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="rate"
+            type="String" />
+
+        <variable
+            name="item"
+            type="com.neugelb.room.model.CachingMovie" />
+    </data>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        app:cardBackgroundColor="#00034948">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/iv_movie"
+                android:layout_width="0dp"
+                android:layout_height="0dp"
+                android:background="#00034948"
+                android:contentDescription="@string/description_poster"
+                android:scaleType="centerCrop"
+                app:centerCrop="@{ true }"
+                app:imageUrl="@{item.image}"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:src="@drawable/no_image" />
+
+            <TextView
+                android:id="@+id/text_item_score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#A8000000"
+                android:paddingStart="8dp"
+                android:paddingTop="8dp"
+                android:paddingEnd="2dp"
+                android:paddingBottom="2dp"
+                android:textColor="@color/yellow"
+                android:textSize="14sp"
+                app:drawableRightCompat="@drawable/star"
+                app:drawableTint="@color/yellow"
+                app:layout_constraintEnd_toEndOf="@+id/iv_movie"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/black_50"
+                android:gravity="center"
+                android:paddingStart="16dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="16dp"
+                android:paddingBottom="10dp"
+                android:text="@{item.title}"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                app:layout_constraintBottom_toBottomOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.cardview.widget.CardView>
+</layout>
