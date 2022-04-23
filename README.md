@@ -10,10 +10,10 @@ This is an android application that shows lists of popular movies, popular Tv sh
 - Fake API Login where can return network and server error depending on random number
 
 # username and password can be used (Dump data)
-username = "admin"   password = "admin"
-username = "Alex"    password = "admin"
-username = "Robert"  password = "123"
-username = "Patrick" password = "happy"
+- username = "admin"   password = "admin"
+- username = "Alex"    password = "admin"
+- username = "Robert"  password = "123"
+- username = "Patrick" password = "happy"
 
 
 ## Architecture and Tech features
