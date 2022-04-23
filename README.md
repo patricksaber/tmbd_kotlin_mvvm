@@ -11,9 +11,9 @@ This is an android application that shows lists of popular movies, popular Tv sh
 
 # username and password can be used (Dump data)
 - username = "admin"   password = "admin"
-- username = "Alex"    password = "admin"
-- username = "Robert"  password = "123"
-- username = "Patrick" password = "happy"
+- username = "alex"    password = "admin"
+- username = "robert"  password = "123"
+- username = "patrick" password = "happy"
 
 
 ## Architecture and Tech features
