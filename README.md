@@ -32,19 +32,19 @@ This is an android application that shows lists of popular movies, popular Tv sh
  - Uses [Sneaker](https://github.com/Hamadakram/Sneaker) for SnackBar.
 
 ## Screenshots
-<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/launcher.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/login_page.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/home_page.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/detail_page.jpg" width="400"/>
-<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/detail_page2.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/search.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/favorite_page.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/setting_page.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/load_more_error.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/login_error.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/login_error2.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/no_data_database.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/main/screenshots/open_page_error.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/master/screenshots/launcher.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/master/screenshots/login_page.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/master/screenshots/home_page.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/master/screenshots/detail_page.jpg" width="400"/>
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/master/screenshots/detail_page2.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/master/screenshots/search.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/master/screenshots/favorite_page.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/master/screenshots/setting_page.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/master/screenshots/load_more_error.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/master/screenshots/login_error.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/master/screenshots/login_error2.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/master/screenshots/no_data_database.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmbd_kotlin_mvvm/blob/master/screenshots/open_page_error.jpg" width="400" />
 
 ### Clone the Repository
 As usual, you get started by cloning the project to your local machine:
