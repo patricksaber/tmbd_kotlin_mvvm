@@ -31,21 +31,6 @@ This is an android application that shows lists of popular movies, popular Tv sh
  - Uses [Timber](https://lottiefiles.com/https://github.com/JakeWharton/timber) for logging
  - Uses [Sneaker](https://github.com/Hamadakram/Sneaker) for SnackBar.
 
-## Screenshots
-<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/launcher.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/login_page.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/home_page.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/detail_page.jpg" width="400"/>
-<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/detail_page2.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/search.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/favorite_page.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/setting_page.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/load_more_error.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/login_error.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/login_error2.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/no_data_database.jpg" width="400" />
-<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/open_page_error.jpg" width="400" />
-
 ### Clone the Repository
 As usual, you get started by cloning the project to your local machine:
 
@@ -65,3 +50,20 @@ Patrick Abi Saber
 patrickabisaber@gmail.com
 
 Hamburg/Germany
+
+
+## Screenshots
+<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/launcher.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/login_page.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/home_page.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/detail_page.jpg" width="400"/>
+<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/detail_page2.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/search.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/favorite_page.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/setting_page.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/load_more_error.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/login_error.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/login_error2.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/no_data_database.jpg" width="400" />
+<img src="https://github.com/patricksaber/tmdb_kotlin_mvvm/blob/master/screenshots/open_page_error.jpg" width="400" />
+
