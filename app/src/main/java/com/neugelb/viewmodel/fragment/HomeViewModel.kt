@@ -3,6 +3,7 @@ package com.neugelb.viewmodel.fragment
 import androidx.lifecycle.viewModelScope
 import com.neugelb.base.BaseViewModel
 import com.neugelb.config.DATABASE_LATEST
+import com.neugelb.config.MOVIE_YEAR
 import com.neugelb.config.TYPE_LOAD_NO_CONNECTION
 import com.neugelb.data.ApiState
 import com.neugelb.data.PaginatedListResponse
@@ -27,7 +28,7 @@ class HomeViewModel @Inject constructor(
     session: SessionManager,
     cachingRepository: CachingRepository
 ) : BaseViewModel(repository, session, cachingRepository) {
-    private var year = 2022
+    private var year = MOVIE_YEAR
     private var page = 1
 
 
@@ -59,7 +60,6 @@ class HomeViewModel @Inject constructor(
     fun loadMore() = loadData()
 
     init {
-        page = 1
         loadData()
     }
 
