@@ -8,10 +8,11 @@ import android.widget.EditText
 import androidx.lifecycle.lifecycleScope
 import com.neugelb.R
 import com.neugelb.base.BaseActivity
+import com.neugelb.config.TYPE_NAVIGATE_NO_CONNECTION
 import com.neugelb.data.UiState
 import com.neugelb.data.req.LoginReq
 import com.neugelb.databinding.ActivityLoginBinding
-import com.neugelb.utils.ConnectionDetector.haveInternet
+import com.neugelb.interfaces.Connect
 import com.neugelb.viewmodel.activity.LoginViewModel
 import kotlinx.coroutines.flow.collect
 import java.util.*
@@ -86,14 +87,17 @@ class LoginActivity : BaseActivity<LoginViewModel, ActivityLoginBinding>() {
 
 
     private fun login() {
-        if (haveInternet())
-            viewModel.fakeLoginChecker(with(binding) {
-                LoginReq(
-                    username.text.toString().lowercase(Locale.getDefault()).trim(),
-                    password.text.toString().lowercase(Locale.getDefault()).trim()
-                )
-            })
-        else showSnackError(getString(R.string.connection_error))
+        isConnectedToTheInternet(TYPE_NAVIGATE_NO_CONNECTION, object : Connect() {
+            override fun retry() = login()
+            override fun isConnected() {
+                viewModel.fakeLoginChecker(with(binding) {
+                    LoginReq(
+                        username.text.toString().lowercase(Locale.getDefault()).trim(),
+                        password.text.toString().lowercase(Locale.getDefault()).trim()
+                    )
+                })
+            }
+        })
     }
 
     override fun onBackPressed() = finishAffinity()

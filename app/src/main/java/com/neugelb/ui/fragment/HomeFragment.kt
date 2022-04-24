@@ -67,7 +67,9 @@ class HomeFragment : BaseFragment<HomeViewModel, FragmentHomeBinding>() {
                 is RoomResponse.Success -> {
                     mAdapter.updateData(it.data)
                     viewModel.updatePage()
+                    updateAutoComplete(mAdapter.currentList)
                     updateView(isLoading = false)
+
                 }
                 is RoomResponse.Error -> showError(
                     requireActivity(),

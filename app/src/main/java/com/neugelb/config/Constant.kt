@@ -8,6 +8,7 @@ const val BASE_URL = BuildConfig.BASE_URL
 const val API_KEY = BuildConfig.TMDB_API_KEY
 const val EXTRA_IMG_URL_W500 = "https://image.tmdb.org/t/p/w500"
 const val EXTRA_IMG_URL_W780 = "https://image.tmdb.org/t/p/w780"
+const val MOVIE_YEAR = 2022
 const val INTENT_ID = "intentID"
 const val NAV_TAG = "NAV_TAG"
 const val PREF_REMEMBER = "INTENT_REMEMBER"
